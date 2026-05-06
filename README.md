@@ -2,11 +2,11 @@
 
 Este projeto foi desenvolvido em Python com o objetivo de automatizar o processo de cadastro de quarto de hotel de utilizando a biblioteca PyAutoGUI, que permite simular interações com o teclado e mouse. 
 
-## 🚀 Objetivo
+## Objetivo
 
 Automatizar tarefas repetitivas de cadastro em sistemas, tornando o processo mais rápido, padronizado e reduzindo erros humanos.
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - Automação de preenchimento de formulários
 - Cadastro automático de hotéis
@@ -14,7 +14,7 @@ Automatizar tarefas repetitivas de cadastro em sistemas, tornando o processo mai
 - Simulação de cliques e digitação
 - Execução baseada em lógica programada
 
-## 🧠 Como funciona
+## Como funciona
 
 O script utiliza o PyAutoGUI para controlar o mouse e o teclado, seguindo uma sequência lógica para:
 
@@ -23,12 +23,12 @@ O script utiliza o PyAutoGUI para controlar o mouse e o teclado, seguindo uma se
 3. Classificar os hotéis por tipo
 4. Finalizar o cadastro sem intervenção manual
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Python
 - PyAutoGUI
 
-## ▶️ Como executar
+## Como executar
 
 1. Clone o repositório:
 ```bash
