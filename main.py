@@ -6,7 +6,8 @@ pyautogui.PAUSE = 2
 
 #abrir o navegador
 pyautogui.press("win")
-time.sleep(3)
+time.sleep(2)
+pyautogui.click(x=2122, y=81)
 pyautogui.write("chrome")
 pyautogui.press("enter")
 time.sleep(2)
@@ -16,7 +17,7 @@ time.sleep(2)
 
 # função para definir o tipo do quarto
 def tipo_quarto(numero):
-    final = numero % 100  # pega os dois últimos dígitos (ex: 101 -> 1)
+    final = numero % 100 
 
     if final in [1, 2]:
         return 0  # Simples
@@ -34,7 +35,7 @@ for andar in [100, 200, 300]:
         numero_quarto = andar + i
 
         # clicar no campo número
-        pyautogui.click(x=338, y=509)
+        pyautogui.click(x=1588, y=507)
         pyautogui.write(str(numero_quarto))
 
         # ir para seleção do tipo
